@@ -170,9 +170,9 @@ REACT_APP_ANTHROPIC_KEY=your_claude_api_key_here
 
 | Member | Enrollment No | Section |
 |---|---|---|
-| Member 1 | XXXXXX | E |
-| Member 2 | XXXXXX | E |
-| Member 3 | XXXXXX | E |
+| Shivam Kumar | 2501010428 | E |
+| Avaneja Rikhta | 2501010105 | E |
+| Deveshi Sahu | 2501010722 | E |
 
 ---
 
