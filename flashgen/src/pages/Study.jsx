@@ -168,7 +168,6 @@ function Study() {
           </button>
         </div>
 
-        {/* Navigation buttons - Previous and Skip */}
         <div className='flex justify-between mt-6'>
           <button
             onClick={goToPreviousCard}
