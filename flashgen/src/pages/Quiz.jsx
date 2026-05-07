@@ -134,7 +134,7 @@ function Quiz() {
               onClick={restartQuiz}
               className='flex-1 bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition'
             >
-              🔄 Try Again 😭
+              🔄 Try Again
             </button>
             <button
               onClick={() => navigate('/study')}
@@ -223,7 +223,7 @@ function Quiz() {
             onClick={handleNextQuestion}
             className='w-full bg-orange-500 hover:bg-orange-600 text-white py-4 rounded-xl font-bold text-lg transition'
           >
-            {currentIndex + 1 >= cards.length ? '✅ See Results' : '→ Next Question'}
+            {currentIndex + 1 >= cards.length ? 'See Results' : '→ Next Question'}
           </button>
         )}
       </div>
