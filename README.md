@@ -30,7 +30,7 @@ The app includes three study modes:
 ## ✨ Features
 
 - 📋 **Paste & Generate** — paste any lecture notes and generate up to 20 flashcards instantly
-- 🤖 **AI-Powered** — uses Claude AI API to read notes and create meaningful Q&A pairs
+- 🤖 **AI-Powered** — uses Groq AI API to read notes and create meaningful Q&A pairs
 - 🃏 **Flip Card Study** — tap to flip cards, mark as Got it / Almost / Didn't know
 - 🎯 **Quiz Mode** — multiple choice questions generated from your cards
 - 📊 **Score Tracking** — see your score and which cards need more revision
@@ -47,7 +47,7 @@ The app includes three study modes:
 | **React** | Frontend UI framework |
 | **React Router** | Page navigation |
 | **Tailwind CSS** | Styling and responsive design |
-| **Claude AI API** | Generate flashcards from notes |
+| **Groq AI API** | Generate flashcards from notes |
 | **localStorage** | Save card sets between sessions |
 | **Vite** | Project build tool |
 
@@ -87,7 +87,7 @@ flashgen/
 
 - Node.js (v18 or above)
 - npm or yarn
-- Claude API key from [console.anthropic.com](https://console.anthropic.com)
+- Groq API key from [console.groq.com](https://console.groq.com)
 
 ### Installation
 
@@ -107,9 +107,9 @@ npm install
 cp .env.example .env
 ```
 
-Open `.env` and add your Claude API key:
+Open `.env` and add your Groq API key:
 ```
-REACT_APP_ANTHROPIC_KEY=your_api_key_here
+VITE_GROQ_KEY=your_api_key_here
 ```
 
 **4. Start the development server**
@@ -129,7 +129,7 @@ http://localhost:5173
 Create a `.env` file in the root directory:
 
 ```env
-REACT_APP_ANTHROPIC_KEY=your_claude_api_key_here
+VITE_GROQ_KEY=your_groq_api_key_here
 ```
 
 > ⚠️ Never commit your `.env` file. It is already in `.gitignore`.
@@ -180,7 +180,7 @@ REACT_APP_ANTHROPIC_KEY=your_claude_api_key_here
 
 | Week | Tasks |
 |---|---|
-| Week 1 | Setup, Navbar, Home page, Generate page, Claude API |
+| Week 1 | Setup, Navbar, Home page, Generate page, Groq API |
 | Week 2 | Preview page, FlashCard component, Study mode, Quiz mode |
 | Week 3 | localStorage, Tailwind styling, testing, bug fixes, deployment |
 
@@ -205,7 +205,7 @@ This project is built as a React Capstone Project for the NST-RU BTech 2025-2029
 
 ## 🙏 Acknowledgements
 
-- [Anthropic Claude API](https://www.anthropic.com) — for AI flashcard generation
+- [Groq AI API](https://console.groq.com) — for AI flashcard generation
 - [React](https://react.dev) — frontend framework
 - [Tailwind CSS](https://tailwindcss.com) — styling
 - [Newton School](https://www.newtonschool.co) — course and mentorship
