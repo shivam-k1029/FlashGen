@@ -164,7 +164,8 @@ React is a JavaScript library for building user interfaces.
 Components are the building blocks of React applications.
 useState is a hook that adds state to functional components.
 useEffect runs code after the component renders.
-Props pass data from parent to child components.'
+Props pass data from parent to child components.
+navigate is a function from react-router-dom used to change routes programmatically.'
             value={notes}
             onChange={function(e) { setNotes(e.target.value) }}
             rows={10}
