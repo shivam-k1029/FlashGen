@@ -134,7 +134,7 @@ function Quiz() {
               onClick={restartQuiz}
               className='flex-1 bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-xl font-semibold transition'
             >
-              🔄 Try Again
+              🔄 Try Again 😭
             </button>
             <button
               onClick={() => navigate('/study')}

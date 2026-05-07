@@ -60,7 +60,7 @@ function Study() {
           <p className='text-6xl mb-5'>✨</p>
 
           <h2 className='text-3xl font-bold text-gray-900 mb-2'>
-            Session Complete!
+            Session Complete!!
           </h2>
 
           <p className='text-gray-600 mb-8'>

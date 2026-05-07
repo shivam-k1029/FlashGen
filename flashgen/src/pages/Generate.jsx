@@ -178,7 +178,7 @@ navigate is a function from react-router-dom used to change routes programmatica
 
         {errorMessage && (
           <div className='bg-red-50 border border-red-200 text-red-600 rounded-xl px-4 py-3 text-sm mb-5'>
-            ⚠️ {errorMessage}
+             {errorMessage}
           </div>
         )}
 
@@ -192,7 +192,7 @@ navigate is a function from react-router-dom used to change routes programmatica
 
         {isLoading && (
           <p className='text-center text-gray-400 text-sm mt-3 animate-pulse'>
-            AI is reading your notes... this takes a few seconds ☕
+            AI is reading your notes... this takes a few seconds 
           </p>
         )}
 
